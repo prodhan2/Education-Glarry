@@ -1,58 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
+# Beautiful Design Example
 
-  .container {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-  }
+Welcome to this beautifully designed document created using GitHub-flavored Markdown!
 
-  h1 {
-    color: #333333;
-  }
+## Typography
 
-  p {
-    color: #666666;
-    line-height: 1.6;
-  }
+You can make text **bold**, *italic*, or even ~~strikethrough~~. You can also create [hyperlinks](https://www.example.com) that stand out.
 
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
+## Lists
 
-  .button:hover {
-    background-color: #0056b3;
-  }
-</style>
-<title>Beautiful Design Example</title>
-</head>
-<body>
-  <div class="container">
-    <h1>Welcome to Our Website</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod lacus non facilisis.</p>
-    <a href="#" class="button">Learn More</a>
-  </div>
-</body>
-</html>
+Here's an example of an unordered list:
+- Item 1
+- Item 2
+- Item 3
+
+And an ordered list:
+1. First item
+2. Second item
+3. Third item
+
+## Images
+
+![Beautiful Image](https://via.placeholder.com/300)
+
+## Code
+
+You can include code snippets:
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
